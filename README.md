@@ -12,4 +12,4 @@ jar cvf cucum.jar -C  src/ .
 
 TO Run
 
-java -cp "*:./jars/*" cucumber.api.cli.Main -p pretty   --glue test features
+java -cp "\*:./jars/\*" cucumber.api.cli.Main -p pretty   --glue test features
